@@ -1,0 +1,52 @@
+{
+    "name": "goblin-the-helper"
+,   "version": "0.0.1"
+,   "author": {
+        "name": "Viacheslav 'Karnak' Ivanov",
+        "url": "http://github.com/vivanov1410"
+        }
+,   "description": "Small tool to help create file structure for my projects"
+,   "private": true
+,   "preferGlobal": true
+,   "bin": {
+        "goblin": "./goblin.js"
+        }
+,   "contributers": [
+        {
+            "name": "Viacheslav 'Karnak' Ivanov",
+            "email" "slava.eth@gmail.com"
+        },
+        {
+            "name": "Svetlana 'Siya' Romaniuk",
+            "email" "svetlanakirilova2012@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "node goblin.js",
+        "test": "mocha --compilers coffee:coffee-script -R spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/vivanov1410/goblin-the-helper.git"
+    },
+    "dependencies": {
+        "optimist": ">= 0.3.4"
+,       "coffee-script": ">= 1.3.3"
+,       "winston": ">= 0.6.2"
+    },
+    "devDependecies": {
+        "docco": ">= 0.3.0",
+        "mocha": ">= 1.3.0",
+        "should": ">= 0.6.3",
+        "nodemon": ">= 0.6.23"
+    },
+    "license": {
+        "type": "MIT"
+,       "url": "http://rem.mit-license.org"
+        }
+,   "engines": {
+        "node": "0.8.x",
+        "npm": "1.1.36"
+    }
+,   "main": "./goblin"
+}
